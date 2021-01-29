@@ -232,7 +232,7 @@ const validate = (req,res) => {
           }
           return res.json({message,status,data})
         }
-        res.statusCode = 200;
+        res.statusCode = 400;
         message =`field ${ruleField} failed validation.`;
         status = 'error';
         data = {
@@ -261,7 +261,7 @@ const validate = (req,res) => {
           }
           return res.json({message,status,data})
         }
-        res.statusCode = 200;
+        res.statusCode = 400;
         message =`field ${ruleField} failed validation.`;
         status = 'error';
         data = {
@@ -290,7 +290,7 @@ const validate = (req,res) => {
           }
           return res.json({message,status,data})
         }
-        res.statusCode = 200;
+        res.statusCode = 400;
         message =`field ${ruleField} failed validation.`;
         status = 'error';
         data = {
@@ -319,7 +319,7 @@ const validate = (req,res) => {
           }
           return res.json({message,status,data})
         }
-        res.statusCode = 200;
+        res.statusCode = 400;
         message =`field ${ruleField} failed validation.`;
         status = 'error';
         data = {
@@ -348,7 +348,7 @@ const validate = (req,res) => {
           }
           return res.json({message,status,data})
         }
-        res.statusCode = 200;
+        res.statusCode = 400;
         message =`field ${ruleField} failed validation.`;
         status = 'error';
         data = {
